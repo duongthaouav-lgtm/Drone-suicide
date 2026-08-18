@@ -1,0 +1,99 @@
+2025-11-23 10:30:16,197 - INFO - ============================================================
+2025-11-23 10:30:16,198 - INFO - YOLO Detection & Tracking System Started
+2025-11-23 10:30:16,198 - INFO - ============================================================
+2025-11-23 10:30:16,341 - INFO - Model loaded: ./weights/last.pt
+2025-11-23 10:30:16,342 - INFO - Model Info:
+2025-11-23 10:30:16,342 - INFO -    Classes: 40
+2025-11-23 10:30:16,342 - INFO -    Class names: ['A10', 'A400M', 'AG600', 'B1', 'B2', 'B52', 'Be200', 'C130', 'C17', 'C5', 'E2', 'EF2000', 'F117', 'F14', 'F15', 'F16', 'F18', 'F22', 'F35', 'F4', 'J20', 'JAS39', 'MQ9', 'Mig31', 'Mirage2000', 'RQ4', 'Rafale', 'SR71', 'Su57', 'Tu160', 'Tu95', 'U2', 'US2', 'V22', 'XB70', 'YF23', 'bird', 'c-helicopter', 'drone', 'p-airplane']
+2025-11-23 10:30:16,342 - INFO -    Confidence threshold: 0.06
+2025-11-23 10:30:16,342 - INFO -    Input size: 720
+2025-11-23 10:30:16,343 - INFO -    Tracking: bytetrack
+2025-11-23 10:30:16,343 - INFO -    Temporal Smoothing: True
+2025-11-23 10:30:16,439 - INFO - GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+2025-11-23 10:30:16,439 - INFO -    GPU Memory: 4.00 GB
+2025-11-23 10:30:16,439 - INFO -    FP16: True
+2025-11-23 10:30:16,440 - INFO -    CUDNN Benchmark: Enabled
+2025-11-23 10:30:16,440 - INFO - Tracking: ByteTrack
+2025-11-23 10:30:16,440 - INFO -    Track Buffer: 50
+2025-11-23 10:30:16,440 - INFO -    Min Track Frames: 3
+2025-11-23 10:30:16,440 - INFO -    Max Age: 30
+2025-11-23 10:30:16,440 - INFO - Advanced Features:
+2025-11-23 10:30:16,440 - INFO -    Kalman Filter: True
+2025-11-23 10:30:16,440 - INFO -    Adaptive Confidence: True
+2025-11-23 10:30:16,440 - INFO -    Hungarian Matching: True
+2025-11-23 10:30:16,440 - INFO -    Occlusion Handling: True
+2025-11-23 10:30:16,441 - INFO -    Multi-scale Detection: False
+2025-11-23 10:30:16,441 - INFO -    Smart Frame Skip: True
+2025-11-23 10:30:16,441 - INFO -    Batch Processing: False
+2025-11-23 10:30:16,441 - INFO -    Temporal Smoothing: True
+2025-11-23 10:30:16,549 - INFO - ============================================================
+2025-11-23 10:30:16,549 - INFO - Video Processing Started
+2025-11-23 10:30:16,549 - INFO -    Video: ./VIDEO.MOV
+2025-11-23 10:30:16,549 - INFO -    Resolution: 464x848
+2025-11-23 10:30:16,549 - INFO -    FPS: 30
+2025-11-23 10:30:16,549 - INFO -    Total Frames: 1201
+2025-11-23 10:30:16,549 - INFO - ============================================================
+2025-11-23 10:30:21,974 - INFO - Frame 30/1201: Det=1, Tracks=1, FPS=5.8 | Classes: C130:1
+2025-11-23 10:30:23,422 - INFO - Frame 60/1201: Det=1, Tracks=1, FPS=25.6 | Classes: V22:1
+2025-11-23 10:30:25,187 - INFO - Frame 90/1201: Det=0, Tracks=0, FPS=21.2
+2025-11-23 10:30:26,242 - INFO - Frame 120/1201: Det=1, Tracks=1, FPS=40.9 | Classes: V22:1
+2025-11-23 10:30:27,311 - INFO - Frame 150/1201: Det=1, Tracks=1, FPS=36.8 | Classes: A10:1
+2025-11-23 10:30:28,347 - INFO - Frame 180/1201: Det=1, Tracks=1, FPS=40.9 | Classes: A10:1
+2025-11-23 10:30:29,420 - INFO - Frame 210/1201: Det=1, Tracks=1, FPS=40.0 | Classes: A10:1
+2025-11-23 10:30:30,471 - INFO - Frame 240/1201: Det=1, Tracks=1, FPS=41.7 | Classes: A10:1
+2025-11-23 10:30:31,442 - INFO - Frame 270/1201: Det=0, Tracks=0, FPS=41.6
+2025-11-23 10:30:32,471 - INFO - Frame 300/1201: Det=0, Tracks=0, FPS=40.2
+2025-11-23 10:30:33,449 - INFO - Frame 330/1201: Det=0, Tracks=0, FPS=42.1
+2025-11-23 10:30:34,389 - INFO - Frame 360/1201: Det=0, Tracks=0, FPS=42.2
+2025-11-23 10:30:35,393 - INFO - Frame 390/1201: Det=1, Tracks=1, FPS=42.1 | Classes: V22:1
+2025-11-23 10:30:36,422 - INFO - Frame 420/1201: Det=1, Tracks=1, FPS=40.8 | Classes: V22:1
+2025-11-23 10:30:37,570 - INFO - Frame 450/1201: Det=1, Tracks=1, FPS=39.6 | Classes: V22:1
+2025-11-23 10:30:38,758 - INFO - Frame 480/1201: Det=0, Tracks=0, FPS=35.5
+2025-11-23 10:30:39,912 - INFO - Frame 510/1201: Det=1, Tracks=1, FPS=36.0 | Classes: V22:1
+2025-11-23 10:30:40,983 - INFO - Frame 540/1201: Det=1, Tracks=1, FPS=40.2 | Classes: V22:1
+2025-11-23 10:30:42,042 - INFO - Frame 570/1201: Det=0, Tracks=0, FPS=40.8
+2025-11-23 10:30:43,021 - INFO - Frame 600/1201: Det=1, Tracks=0, FPS=42.7 | Classes: V22:1
+2025-11-23 10:30:43,959 - INFO - Frame 630/1201: Det=0, Tracks=0, FPS=42.6
+2025-11-23 10:30:44,971 - INFO - Frame 660/1201: Det=1, Tracks=1, FPS=42.2 | Classes: V22:1
+2025-11-23 10:30:45,973 - INFO - Frame 690/1201: Det=0, Tracks=0, FPS=43.0
+2025-11-23 10:30:47,048 - INFO - Frame 720/1201: Det=0, Tracks=0, FPS=41.5
+2025-11-23 10:30:48,062 - INFO - Frame 750/1201: Det=1, Tracks=0, FPS=42.1 | Classes: V22:1
+2025-11-23 10:30:49,080 - INFO - Frame 780/1201: Det=0, Tracks=0, FPS=40.9
+2025-11-23 10:30:50,065 - INFO - Frame 810/1201: Det=1, Tracks=1, FPS=42.6 | Classes: V22:1
+2025-11-23 10:30:51,137 - INFO - Frame 840/1201: Det=1, Tracks=1, FPS=39.6 | Classes: V22:1
+2025-11-23 10:30:52,199 - INFO - Frame 870/1201: Det=1, Tracks=0, FPS=40.9 | Classes: V22:1
+2025-11-23 10:30:53,190 - INFO - Frame 900/1201: Det=0, Tracks=0, FPS=42.6
+2025-11-23 10:30:54,209 - INFO - Frame 930/1201: Det=0, Tracks=0, FPS=40.0
+2025-11-23 10:30:55,139 - INFO - Frame 960/1201: Det=0, Tracks=0, FPS=43.2
+2025-11-23 10:30:56,094 - INFO - Frame 990/1201: Det=0, Tracks=0, FPS=44.1
+2025-11-23 10:30:57,031 - INFO - Frame 1020/1201: Det=0, Tracks=0, FPS=44.4
+2025-11-23 10:30:58,013 - INFO - Frame 1050/1201: Det=0, Tracks=0, FPS=42.3
+2025-11-23 10:30:59,058 - INFO - Frame 1080/1201: Det=1, Tracks=1, FPS=41.5 | Classes: drone:1
+2025-11-23 10:31:00,232 - INFO - Frame 1110/1201: Det=1, Tracks=1, FPS=40.3 | Classes: drone:1
+2025-11-23 10:31:01,218 - INFO - Frame 1140/1201: Det=1, Tracks=1, FPS=40.6 | Classes: drone:1
+2025-11-23 10:31:02,233 - INFO - Frame 1170/1201: Det=1, Tracks=1, FPS=38.2 | Classes: drone:1
+2025-11-23 10:31:03,310 - INFO - Frame 1200/1201: Det=1, Tracks=1, FPS=39.3 | Classes: drone:1
+2025-11-23 10:31:03,372 - INFO - ============================================================
+2025-11-23 10:31:03,372 - INFO - Video Processing Completed
+2025-11-23 10:31:03,404 - INFO - ============================================================
+2025-11-23 10:31:03,405 - INFO - FINAL STATISTICS
+2025-11-23 10:31:03,405 - INFO - ============================================================
+2025-11-23 10:31:03,405 - INFO -    Total Frames Processed: 1201
+2025-11-23 10:31:03,406 - INFO -    Processing Time: 46.82s
+2025-11-23 10:31:03,406 - INFO -    Average FPS: 25.65
+2025-11-23 10:31:03,407 - INFO -    Min FPS: 31.19
+2025-11-23 10:31:03,407 - INFO -    Max FPS: 46.90
+2025-11-23 10:31:03,408 - INFO -    Avg Frame Time: 25.61ms
+2025-11-23 10:31:03,408 - INFO -    Frames with Detections: 593
+2025-11-23 10:31:03,409 - INFO -    Frames without Detections: 608
+2025-11-23 10:31:03,409 - INFO -    Class Statistics:
+2025-11-23 10:31:03,409 - INFO -       V22: 310
+2025-11-23 10:31:03,409 - INFO -       drone: 122
+2025-11-23 10:31:03,410 - INFO -       A10: 119
+2025-11-23 10:31:03,410 - INFO -       C130: 32
+2025-11-23 10:31:03,411 - INFO -       J20: 9
+2025-11-23 10:31:03,412 - INFO -       US2: 7
+2025-11-23 10:31:03,412 - INFO -    Total Unique Tracks: 15
+2025-11-23 10:31:03,412 - INFO - ============================================================
+2025-11-23 10:31:03,413 - INFO - Processing Complete!
+2025-11-23 10:31:03,413 - INFO - Log saved to: ./results\logs\detection_log_20251123_103016.txt

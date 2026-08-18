@@ -1,0 +1,20 @@
+# Core dependencies
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Optional but recommended
+filterpy>=1.4.5  # For Kalman Filter
+scipy>=1.10.0  # For Hungarian algorithm
+
+# Dataset tools (for download_and_prepare_dataset.py)
+huggingface_hub>=0.16.0
+datasets>=2.14.0
+pillow>=9.5.0
+tqdm>=4.65.0
+
+# Note: Install PyTorch with CUDA support if you have GPU:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+

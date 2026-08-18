@@ -1,0 +1,80 @@
+2025-11-23 00:43:19,825 - INFO - ============================================================
+2025-11-23 00:43:19,830 - INFO - ============================================================
+2025-11-23 00:43:19,890 - INFO -    Classes: 40
+2025-11-23 00:43:19,891 - INFO -    Class names: ['A10', 'A400M', 'AG600', 'B1', 'B2', 'B52', 'Be200', 'C130', 'C17', 'C5', 'E2', 'EF2000', 'F117', 'F14', 'F15', 'F16', 'F18', 'F22', 'F35', 'F4', 'J20', 'JAS39', 'MQ9', 'Mig31', 'Mirage2000', 'RQ4', 'Rafale', 'SR71', 'Su57', 'Tu160', 'Tu95', 'U2', 'US2', 'V22', 'XB70', 'YF23', 'bird', 'c-helicopter', 'drone', 'p-airplane']
+2025-11-23 00:43:19,891 - INFO -    Confidence threshold: 0.15
+2025-11-23 00:43:19,891 - INFO -    Input size: 640
+2025-11-23 00:43:19,891 - INFO -    Tracking: bytetrack
+2025-11-23 00:43:19,891 - INFO -    Temporal Smoothing: True
+2025-11-23 00:43:19,916 - INFO -    GPU Memory: 4.00 GB
+2025-11-23 00:43:19,916 - INFO -    FP16: True
+2025-11-23 00:43:19,916 - INFO -    CUDNN Benchmark: Enabled
+2025-11-23 00:43:19,917 - INFO -    Track Buffer: 50
+2025-11-23 00:43:19,917 - INFO -    Min Track Frames: 3
+2025-11-23 00:43:19,918 - INFO -    Max Age: 30
+2025-11-23 00:43:19,932 - INFO - ============================================================
+2025-11-23 00:43:19,934 - INFO -    Video: ./VIDEO.MOV
+2025-11-23 00:43:19,934 - INFO -    Resolution: 464x848
+2025-11-23 00:43:19,935 - INFO -    FPS: 30
+2025-11-23 00:43:19,935 - INFO -    Total Frames: 1201
+2025-11-23 00:43:19,935 - INFO - ============================================================
+2025-11-23 00:43:23,272 - INFO - Frame 30/1201: Det=1, Tracks=1, FPS=10.1 | Classes: drone:1
+2025-11-23 00:43:24,503 - INFO - Frame 60/1201: Det=1, Tracks=1, FPS=33.0 | Classes: drone:1
+2025-11-23 00:43:25,629 - INFO - Frame 90/1201: Det=0, Tracks=0, FPS=37.4
+2025-11-23 00:43:26,705 - INFO - Frame 120/1201: Det=1, Tracks=1, FPS=38.2 | Classes: V22:1
+2025-11-23 00:43:27,668 - INFO - Frame 150/1201: Det=0, Tracks=0, FPS=39.8
+2025-11-23 00:43:28,768 - INFO - Frame 180/1201: Det=0, Tracks=0, FPS=34.8
+2025-11-23 00:43:29,832 - INFO - Frame 210/1201: Det=0, Tracks=0, FPS=35.8
+2025-11-23 00:43:30,809 - INFO - Frame 240/1201: Det=0, Tracks=0, FPS=40.9
+2025-11-23 00:43:31,820 - INFO - Frame 270/1201: Det=0, Tracks=0, FPS=40.8
+2025-11-23 00:43:32,793 - INFO - Frame 300/1201: Det=1, Tracks=0, FPS=42.3 | Classes: V22:1
+2025-11-23 00:43:33,761 - INFO - Frame 330/1201: Det=0, Tracks=0, FPS=42.0
+2025-11-23 00:43:34,707 - INFO - Frame 360/1201: Det=0, Tracks=0, FPS=41.9
+2025-11-23 00:43:35,768 - INFO - Frame 390/1201: Det=0, Tracks=0, FPS=37.5
+2025-11-23 00:43:36,867 - INFO - Frame 420/1201: Det=1, Tracks=0, FPS=36.6 | Classes: V22:1
+2025-11-23 00:43:38,204 - INFO - Frame 450/1201: Det=1, Tracks=1, FPS=32.4 | Classes: V22:1
+2025-11-23 00:43:39,218 - INFO - Frame 480/1201: Det=1, Tracks=0, FPS=37.3 | Classes: V22:1
+2025-11-23 00:43:40,337 - INFO - Frame 510/1201: Det=0, Tracks=0, FPS=34.2
+2025-11-23 00:43:41,404 - INFO - Frame 540/1201: Det=1, Tracks=1, FPS=37.3 | Classes: V22:1
+2025-11-23 00:43:42,415 - INFO - Frame 570/1201: Det=1, Tracks=0, FPS=42.5 | Classes: V22:1
+2025-11-23 00:43:43,509 - INFO - Frame 600/1201: Det=0, Tracks=0, FPS=36.0
+2025-11-23 00:43:44,597 - INFO - Frame 630/1201: Det=1, Tracks=0, FPS=37.2 | Classes: V22:1
+2025-11-23 00:43:45,597 - INFO - Frame 660/1201: Det=0, Tracks=0, FPS=37.9
+2025-11-23 00:43:46,626 - INFO - Frame 690/1201: Det=0, Tracks=0, FPS=37.8
+2025-11-23 00:43:47,635 - INFO - Frame 720/1201: Det=0, Tracks=0, FPS=40.4
+2025-11-23 00:43:48,692 - INFO - Frame 750/1201: Det=1, Tracks=1, FPS=39.3 | Classes: V22:1
+2025-11-23 00:43:49,723 - INFO - Frame 780/1201: Det=0, Tracks=0, FPS=36.3
+2025-11-23 00:43:50,699 - INFO - Frame 810/1201: Det=0, Tracks=0, FPS=38.1
+2025-11-23 00:43:51,983 - INFO - Frame 840/1201: Det=0, Tracks=0, FPS=29.4
+2025-11-23 00:43:52,935 - INFO - Frame 870/1201: Det=0, Tracks=0, FPS=41.5
+2025-11-23 00:43:53,926 - INFO - Frame 900/1201: Det=0, Tracks=0, FPS=41.2
+2025-11-23 00:43:54,938 - INFO - Frame 930/1201: Det=0, Tracks=0, FPS=42.3
+2025-11-23 00:43:55,930 - INFO - Frame 960/1201: Det=0, Tracks=0, FPS=41.9
+2025-11-23 00:43:56,930 - INFO - Frame 990/1201: Det=0, Tracks=0, FPS=42.2
+2025-11-23 00:43:57,916 - INFO - Frame 1020/1201: Det=0, Tracks=0, FPS=43.2
+2025-11-23 00:43:58,950 - INFO - Frame 1050/1201: Det=0, Tracks=0, FPS=40.3
+2025-11-23 00:44:00,084 - INFO - Frame 1080/1201: Det=0, Tracks=0, FPS=38.4
+2025-11-23 00:44:01,364 - INFO - Frame 1110/1201: Det=1, Tracks=1, FPS=33.6 | Classes: drone:1
+2025-11-23 00:44:02,515 - INFO - Frame 1140/1201: Det=1, Tracks=1, FPS=37.0 | Classes: drone:1
+2025-11-23 00:44:03,622 - INFO - Frame 1170/1201: Det=1, Tracks=1, FPS=36.8 | Classes: drone:1
+2025-11-23 00:44:04,769 - INFO - Frame 1200/1201: Det=1, Tracks=1, FPS=37.3 | Classes: drone:1
+2025-11-23 00:44:04,824 - INFO - ============================================================
+2025-11-23 00:44:04,849 - INFO - ============================================================
+2025-11-23 00:44:04,851 - INFO - ============================================================
+2025-11-23 00:44:04,852 - INFO -    Total Frames Processed: 1201
+2025-11-23 00:44:04,852 - INFO -    Processing Time: 44.87s
+2025-11-23 00:44:04,852 - INFO -    Average FPS: 26.77
+2025-11-23 00:44:04,853 - INFO -    Min FPS: 30.41
+2025-11-23 00:44:04,853 - INFO -    Max FPS: 45.41
+2025-11-23 00:44:04,853 - INFO -    Avg Frame Time: 26.41ms
+2025-11-23 00:44:04,854 - INFO -    Frames with Detections: 468
+2025-11-23 00:44:04,854 - INFO -    Frames without Detections: 733
+2025-11-23 00:44:04,854 - INFO -    Class Statistics:
+2025-11-23 00:44:04,854 - INFO -       V22: 246
+2025-11-23 00:44:04,855 - INFO -       drone: 167
+2025-11-23 00:44:04,855 - INFO -       A10: 37
+2025-11-23 00:44:04,856 - INFO -       C130: 9
+2025-11-23 00:44:04,856 - INFO -       J20: 6
+2025-11-23 00:44:04,856 - INFO -       bird: 4
+2025-11-23 00:44:04,857 - INFO -    Total Unique Tracks: 14
+2025-11-23 00:44:04,857 - INFO - ============================================================

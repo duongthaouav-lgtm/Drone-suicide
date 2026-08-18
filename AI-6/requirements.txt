@@ -1,0 +1,18 @@
+# Requirements for Raspberry Pi 5 + AI HAT KIT 26TOPS
+# Core dependencies
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+scipy>=1.10.0
+filterpy>=1.4.5
+# For Pi 5 optimization
+Pillow>=10.0.0
+
+# Optional: For Hailo NPU support (if available)
+# hailo-platform>=4.0.0  # Uncomment if Hailo drivers are installed
+
+# Note: On Raspberry Pi 5, install PyTorch with:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+

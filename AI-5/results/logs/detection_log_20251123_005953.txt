@@ -1,0 +1,72 @@
+2025-11-23 00:59:53,266 - INFO - ============================================================
+2025-11-23 00:59:53,267 - INFO - YOLO Detection & Tracking System Started
+2025-11-23 00:59:53,268 - INFO - ============================================================
+2025-11-23 00:59:53,319 - INFO - Model loaded: ./weights/best.pt
+2025-11-23 00:59:53,319 - INFO - Model Info:
+2025-11-23 00:59:53,319 - INFO -    Classes: 40
+2025-11-23 00:59:53,319 - INFO -    Class names: ['A10', 'A400M', 'AG600', 'B1', 'B2', 'B52', 'Be200', 'C130', 'C17', 'C5', 'E2', 'EF2000', 'F117', 'F14', 'F15', 'F16', 'F18', 'F22', 'F35', 'F4', 'J20', 'JAS39', 'MQ9', 'Mig31', 'Mirage2000', 'RQ4', 'Rafale', 'SR71', 'Su57', 'Tu160', 'Tu95', 'U2', 'US2', 'V22', 'XB70', 'YF23', 'bird', 'c-helicopter', 'drone', 'p-airplane']
+2025-11-23 00:59:53,321 - INFO -    Confidence threshold: 0.12
+2025-11-23 00:59:53,321 - INFO -    Input size: 640
+2025-11-23 00:59:53,322 - INFO -    Tracking: bytetrack
+2025-11-23 00:59:53,322 - INFO -    Temporal Smoothing: True
+2025-11-23 00:59:53,341 - INFO - GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+2025-11-23 00:59:53,342 - INFO -    GPU Memory: 4.00 GB
+2025-11-23 00:59:53,342 - INFO -    FP16: True
+2025-11-23 00:59:53,342 - INFO -    CUDNN Benchmark: Enabled
+2025-11-23 00:59:53,342 - INFO - Tracking: ByteTrack
+2025-11-23 00:59:53,343 - INFO -    Track Buffer: 50
+2025-11-23 00:59:53,343 - INFO -    Min Track Frames: 3
+2025-11-23 00:59:53,343 - INFO -    Max Age: 30
+2025-11-23 00:59:53,343 - INFO - Advanced Features:
+2025-11-23 00:59:53,343 - INFO -    Kalman Filter: True
+2025-11-23 00:59:53,343 - INFO -    Adaptive Confidence: True
+2025-11-23 00:59:53,343 - INFO -    Hungarian Matching: True
+2025-11-23 00:59:53,344 - INFO -    Occlusion Handling: True
+2025-11-23 00:59:53,344 - INFO -    Multi-scale Detection: False
+2025-11-23 00:59:53,344 - INFO -    Smart Multi-scale: True
+2025-11-23 00:59:53,344 - INFO -    Smart Frame Skip: True
+2025-11-23 00:59:53,344 - INFO -    Skip on No Detections: True
+2025-11-23 00:59:53,344 - INFO -    Adaptive Image Size: True
+2025-11-23 00:59:53,344 - INFO -    Batch Processing: False
+2025-11-23 00:59:53,344 - INFO -    Temporal Smoothing: True
+2025-11-23 00:59:53,344 - INFO -    Early Exit: True
+2025-11-23 00:59:53,359 - INFO - ============================================================
+2025-11-23 00:59:53,359 - INFO - Video Processing Started
+2025-11-23 00:59:53,360 - INFO -    Video: ./VIDEO.MOV
+2025-11-23 00:59:53,360 - INFO -    Resolution: 464x848
+2025-11-23 00:59:53,360 - INFO -    FPS: 30
+2025-11-23 00:59:53,360 - INFO -    Total Frames: 1201
+2025-11-23 00:59:53,361 - INFO - ============================================================
+2025-11-23 00:59:57,221 - INFO - Frame 60/1201: Det=0, Tracks=0, FPS=39.8
+2025-11-23 00:59:58,448 - INFO - Frame 120/1201: Det=1, Tracks=1, FPS=125.7 | Classes: A10:1
+2025-11-23 00:59:59,084 - INFO - Frame 150/1201: Det=1, Tracks=1, FPS=103.1 | Classes: A10:1
+2025-11-23 01:00:01,053 - INFO - Frame 270/1201: Det=0, Tracks=0, FPS=132.5
+2025-11-23 01:00:01,869 - INFO - Frame 300/1201: Det=0, Tracks=0, FPS=73.9
+2025-11-23 01:00:03,747 - INFO - Frame 390/1201: Det=0, Tracks=0, FPS=167.4
+2025-11-23 01:00:07,882 - INFO - Frame 600/1201: Det=0, Tracks=0, FPS=148.3
+2025-11-23 01:00:11,324 - INFO - Frame 780/1201: Det=0, Tracks=0, FPS=160.2
+2025-11-23 01:00:12,035 - INFO - Frame 810/1201: Det=0, Tracks=0, FPS=92.2
+2025-11-23 01:00:19,306 - INFO - ============================================================
+2025-11-23 01:00:19,307 - INFO - Video Processing Completed
+2025-11-23 01:00:19,353 - INFO - ============================================================
+2025-11-23 01:00:19,354 - INFO - FINAL STATISTICS
+2025-11-23 01:00:19,354 - INFO - ============================================================
+2025-11-23 01:00:19,354 - INFO -    Total Frames Processed: 1201
+2025-11-23 01:00:19,355 - INFO -    Processing Time: 25.95s
+2025-11-23 01:00:19,355 - INFO -    Average FPS: 46.28
+2025-11-23 01:00:19,355 - INFO -    Min FPS: 28.47
+2025-11-23 01:00:19,355 - INFO -    Max FPS: 993.91
+2025-11-23 01:00:19,355 - INFO -    Avg Frame Time: 8.76ms
+2025-11-23 01:00:19,355 - INFO -    Frames with Detections: 77
+2025-11-23 01:00:19,356 - INFO -    Frames without Detections: 1124
+2025-11-23 01:00:19,356 - INFO -    Class Statistics:
+2025-11-23 01:00:19,356 - INFO -       V22: 36
+2025-11-23 01:00:19,356 - INFO -       drone: 22
+2025-11-23 01:00:19,356 - INFO -       A10: 9
+2025-11-23 01:00:19,357 - INFO -       C130: 6
+2025-11-23 01:00:19,357 - INFO -       bird: 3
+2025-11-23 01:00:19,357 - INFO -       US2: 1
+2025-11-23 01:00:19,357 - INFO -    Total Unique Tracks: 10
+2025-11-23 01:00:19,357 - INFO - ============================================================
+2025-11-23 01:00:19,358 - INFO - Processing Complete!
+2025-11-23 01:00:19,358 - INFO - Log saved to: ./results\logs\detection_log_20251123_005953.txt
